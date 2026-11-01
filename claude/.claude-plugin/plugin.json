@@ -1,0 +1,24 @@
+{
+  "name": "cleartangle",
+  "displayName": "ClearTangle",
+  "version": "1.0.0",
+  "description": "Save notes, tasks and reminders to ClearTangle, your second brain, and find what you saved, from Claude.",
+  "author": {
+    "name": "ClearTangle",
+    "email": "support@cleartangle.com",
+    "url": "https://cleartangle.com"
+  },
+  "homepage": "https://cleartangle.com/docs/integrations/claude-and-chatgpt",
+  "repository": "https://github.com/cleartangle/cleartangle-assistant-plugins",
+  "license": "MIT",
+  "keywords": [
+    "second brain",
+    "notes",
+    "tasks",
+    "reminders",
+    "daily plan",
+    "productivity"
+  ],
+  "privacyPolicyUrl": "https://cleartangle.com/privacy",
+  "icon": ".claude-plugin/icon.png"
+}

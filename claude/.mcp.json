@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cleartangle": {
+      "type": "http",
+      "url": "https://app.cleartangle.com/mcp",
+      "oauth": {
+        "clientId": "0639b638-a729-4611-abbf-fe3aeff6e2c9",
+        "callbackPort": 33418
+      }
+    }
+  }
+}

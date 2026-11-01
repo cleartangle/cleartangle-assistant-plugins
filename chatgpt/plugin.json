@@ -1,0 +1,47 @@
+{
+  "name": "cleartangle",
+  "version": "1.0.0",
+  "description": "Save notes, tasks and reminders to ClearTangle, your second brain, and find what you saved, from ChatGPT.",
+  "author": {
+    "name": "ClearTangle",
+    "email": "support@cleartangle.com",
+    "url": "https://cleartangle.com"
+  },
+  "homepage": "https://cleartangle.com/docs/integrations/claude-and-chatgpt",
+  "license": "MIT",
+  "keywords": [
+    "second brain",
+    "notes",
+    "tasks",
+    "reminders",
+    "daily plan",
+    "productivity"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ClearTangle",
+        "shortDescription": "Your notes, tasks and plans",
+        "longDescription": "ClearTangle is a second brain for busy people. Capture a thought, a task or a reminder in a few words, and ClearTangle keeps it organised, searchable and ready for your day.\n\nWith the ClearTangle plugin, ChatGPT works with your own ClearTangle account:\n\n- Save notes, ideas, tasks and reminders straight from the conversation.\n- Find what you saved: past notes, pages, memories and tasks, with links back to each item.\n- See what's on your plate: overdue and upcoming tasks, today's plan, and free time on your connected Google Calendar.\n- Draft Slack replies and email replies in your own voice from the context you keep in ClearTangle.\n\nYou sign in with your ClearTangle account and approve access on a ClearTangle consent screen. ChatGPT only sees your own data. Changes ask you to confirm first, delete tools are not offered, and Gmail stays off until you turn it on for ChatGPT in ClearTangle. You can disconnect at any time in ClearTangle under Settings, Integrations, AI assistants.\n\nRequires a ClearTangle account (cleartangle.com).",
+        "developerName": "ClearTangle",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://cleartangle.com",
+        "supportURL": "https://cleartangle.com/docs/support",
+        "privacyPolicyURL": "https://cleartangle.com/privacy",
+        "termsOfServiceURL": "https://cleartangle.com/terms",
+        "defaultPrompt": [
+          "What's on my plate today in ClearTangle?",
+          "Save this idea to ClearTangle: run a customer survey before the pricing change",
+          "Find what I noted in ClearTangle about the pricing call"
+        ],
+        "brandColor": "#C2185B",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/composer-icon.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "cleartangle",
+  "owner": {
+    "name": "ClearTangle",
+    "email": "support@cleartangle.com"
+  },
+  "metadata": {
+    "description": "ClearTangle plugins for Claude Code and Cowork."
+  },
+  "plugins": [
+    {
+      "name": "cleartangle",
+      "source": "./claude",
+      "description": "Save notes, tasks and reminders to ClearTangle, your second brain, and find what you saved, from Claude."
+    }
+  ]
+}

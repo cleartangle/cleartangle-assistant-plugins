@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "cleartangle": {
+      "type": "streamable-http",
+      "url": "https://app.cleartangle.com/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "provided",
+              "clientId": "1b44085f-d3c8-4608-8f91-6ebadbb208e1",
+              "tokenEndpointAuthMethod": "none"
+            },
+            "defaultScopes": ["openid", "email", "offline_access"]
+          }
+        }
+      }
+    }
+  }
+}
