@@ -46,8 +46,9 @@ In ClearTangle, open Settings → Integrations → AI assistants and choose
 Disconnect. In Claude Code you can also run `/mcp` and log out of
 `cleartangle`.
 
-## Privacy
+## Privacy and support
 
-ClearTangle's privacy policy: https://cleartangle.com/privacy. Documentation:
-https://cleartangle.com/docs/integrations/claude-and-chatgpt. Support:
-support@cleartangle.com.
+- Privacy policy: [cleartangle.com/privacy](https://cleartangle.com/privacy)
+- Terms: [cleartangle.com/terms](https://cleartangle.com/terms)
+- Documentation: [cleartangle.com/docs/integrations/mcp](https://cleartangle.com/docs/integrations/mcp)
+- Support: [cleartangle.com/docs/support](https://cleartangle.com/docs/support) or support@cleartangle.com
