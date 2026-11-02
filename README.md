@@ -20,7 +20,6 @@ chatgpt/               ChatGPT plugin package (zipped for upload)
 shared/SKILL.md        the one skill both packages ship; edit this copy
 .claude-plugin/        marketplace.json, so Claude Code can install from this repo
 scripts/build.mjs      syncs the skill, checks store limits, zips the ChatGPT package
-submission/            go-live checklist and every portal answer
 ```
 
 ## Build and check
@@ -33,9 +32,8 @@ claude plugin validate ./claude --profile directory
 
 ## Going live
 
-Start with [submission/CHECKLIST.md](submission/CHECKLIST.md). It lists the
-production OAuth steps, the website pages both stores need, and the order to
-submit in.
+The go-live checklist and the store portal answers are kept outside this
+repo (they cover production server steps).
 
 ## Try the Claude plugin locally
 
