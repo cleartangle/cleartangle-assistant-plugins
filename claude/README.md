@@ -32,6 +32,14 @@ ClearTangle.
 
 A ClearTangle account (sign up at https://cleartangle.com).
 
+## Install
+
+In Claude Code:
+
+```
+/plugin install cleartangle --marketplace mahipaljyani/cleartangle-assistant-plugins
+```
+
 ## Disconnect
 
 In ClearTangle, open Settings → Integrations → AI assistants and choose
