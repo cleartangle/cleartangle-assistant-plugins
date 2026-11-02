@@ -37,7 +37,7 @@ A ClearTangle account (sign up at https://cleartangle.com).
 In Claude Code:
 
 ```
-/plugin install cleartangle --marketplace mahipaljyani/cleartangle-assistant-plugins
+/plugin install cleartangle --marketplace cleartangle/cleartangle-assistant-plugins
 ```
 
 ## Disconnect
